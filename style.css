@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-main {
+#color {
     display: flex;
     height: 100vh;
     background-color: white;
     justify-content: center;
 }
 
-.interface {
+#interface {
     display: flex;
     justify-content: center;
     align-items: center;
