@@ -6,7 +6,7 @@
 
 #color {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     /* background-color: white; */
     justify-content: center;
 }
@@ -18,12 +18,14 @@
     align-items: center;
     
     background-color: aliceblue;
-    border-color: black;
-    border-style: solid;
+    /* border-color: black; */
+    /* border-style: solid; */
     height: 30vh;
-    width: 40vw;
+    width: 30vw;
+    box-shadow: 10px 6px black;
     align-self: center;
     padding: 1rem;
+    /* border-radius: 30px; */
 
 }
 
@@ -35,8 +37,19 @@ h3 {
 button {
     padding: 5px;
     margin: 0.5rem;
+    transition-duration: 0.6s;
+    border-style: none;
+    background-color: black;
+    color: aliceblue;
     /* border-radius: 10px; */
     
+}
+
+button:hover {
+    color: rgb(149, 156, 251);
+    
+    
+
 }
 
 .container {
@@ -46,5 +59,20 @@ button {
     justify-content: space-between; 
     
 }
+
+footer {
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h4 {
+    color: aliceblue;
+}
+
+
 
 

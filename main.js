@@ -50,11 +50,13 @@ function changeColor() {
     let i = getHexaColor()
     random.textContent = i;
     background.style.backgroundColor = i;
+    btnCopy.innerText = 'Copy'
 
 }
 
 function clipboard() {
     navigator.clipboard.writeText(change.innerText)
+    btnCopy.innerText = 'Copied!'
    
     
 }
