@@ -4,6 +4,7 @@ const arrayLetters = ['A', 'B', 'C', 'D', 'E', 'F']
 const background = document.getElementById('color')
 const random = document.getElementById('change')
 const btnn = document.getElementById('changeColor')
+const btnCopy = document.getElementById("copy")
 
 // generate random number
 
@@ -43,10 +44,17 @@ function getHexaColor() {
 // If u click the btn the background of the page will change
 
 btnn.addEventListener("click", changeColor)
+btnCopy.addEventListener("click", clipboard)
 
 function changeColor() {
     let i = getHexaColor()
     random.textContent = i;
     background.style.backgroundColor = i;
 
+}
+
+function clipboard() {
+    navigator.clipboard.writeText(change.innerText)
+   
+    
 }
