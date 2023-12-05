@@ -7,15 +7,19 @@
 #color {
     display: flex;
     height: 100vh;
-    background-color: white;
+    /* background-color: white; */
     justify-content: center;
 }
 
 #interface {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     background-color: aliceblue;
+    border-color: black;
+    border-style: solid;
     height: 30vh;
     width: 40vw;
     align-self: center;
@@ -24,6 +28,12 @@
 }
 
 h3 {
-    font-size: 7rem;
+    padding: 1rem;
+    font-size: 2rem;
 }
+
+button {
+    padding: 5px;
+}
+
 
